@@ -1,0 +1,25 @@
+{
+  "name": "cloudant-backup",
+  "version": "0.0.1",
+  "description": "A utility for backing up your Cloudant databases without costly replication",
+  "main": "./lib/cloudant-backup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:homerjam/cloudant-backup.git"
+  },
+  "author": "James Homer",
+  "license": "BSD",
+  "dependencies": {
+    "bluebird": "^2.9.13",
+    "cloudant": "^1.0.0-beta3",
+    "commander": "^2.6.0",
+    "nano": "^6.1.2"
+  }
+}
