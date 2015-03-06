@@ -19,7 +19,6 @@
   "dependencies": {
     "bluebird": "^2.9.13",
     "cloudant": "^1.0.0-beta3",
-    "commander": "^2.6.0",
-    "nano": "^6.1.2"
+    "commander": "^2.6.0"
   }
 }
