@@ -1,6 +1,6 @@
 {
   "name": "cloudant-backup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A utility for backing up your Cloudant databases without costly replication",
   "main": "./lib/cloudant-backup.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "dependencies": {
     "bluebird": "^2.9.13",
     "cloudant": "^1.0.0-beta3",
-    "commander": "^2.6.0"
+    "commander": "^2.6.0",
+    "dateformat": "^1.0.11"
   }
 }
